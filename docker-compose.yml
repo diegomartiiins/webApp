@@ -10,7 +10,7 @@ services:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
   postgres:
-    image: postgres
+    image: postgres:14.0
     restart: always
     environment:
       POSTGRES_PASSWORD: complEx@09

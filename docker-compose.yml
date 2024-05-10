@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    depends_on:
+      - postgres
+    ports:
+      - "8080:8080"
+  postgres:
+    image: postgres:14.0
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: complEx@09
+      POSTGRES_USER: usuario_postgres_db
+      POSTGRES_DB: netBank
+    volumes:
+      - .docker/dbdata:/var/lib/postgresql/data
+    ports:
+      - "5439:5432"

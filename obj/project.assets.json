@@ -2747,11 +2747,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/diegoubuntu/Projects/webApp/webApp.csproj",
+      "projectUniqueName": "/home/diegoubuntu/webApp/webApp.csproj",
       "projectName": "webApp",
-      "projectPath": "/home/diegoubuntu/Projects/webApp/webApp.csproj",
+      "projectPath": "/home/diegoubuntu/webApp/webApp.csproj",
       "packagesPath": "/home/diegoubuntu/.nuget/packages/",
-      "outputPath": "/home/diegoubuntu/Projects/webApp/obj/",
+      "outputPath": "/home/diegoubuntu/webApp/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/diegoubuntu/.nuget/NuGet/NuGet.Config"
